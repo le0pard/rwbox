@@ -24,7 +24,7 @@
       "pg_hba": [
         { "type": "local", "db": "all", "user": "postgres", "addr": null, "method": "ident" },
         { "type": "local", "db": "all", "user": "all", "addr": null, "method": "ident" },
-        { "type": "host", "db": "all", "user": "all", "addr": null, "method": "md" }
+        { "type": "host", "db": "all", "user": "all", "addr": null, "method": "md5" }
       ]
     }
   },

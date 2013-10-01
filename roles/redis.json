@@ -1,0 +1,21 @@
+{
+  "name": "redis",
+  "chef_type": "role",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+    "redis": {
+      "source": {
+        "version": "2.6.16",
+        "tar_url": "http://download.redis.io/releases/redis-2.6.16.tar.gz",
+        "tar_checksum": ""
+      },
+      "bind": "0.0.0.0",
+      "timeout": 0,
+      "appendfsync": "no"
+    }
+  },
+  "description": "The base role for systems that redis",
+  "run_list": [
+    "recipe[redis::source]"
+  ]
+}

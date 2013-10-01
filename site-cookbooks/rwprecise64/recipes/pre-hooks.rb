@@ -1,4 +1,5 @@
 package "curl"
+package "virtualbox-guest-utils"
 
 script "update chef" do
   code <<-EOH

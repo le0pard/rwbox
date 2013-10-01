@@ -8,6 +8,9 @@
       "git": "git://github.com/opscode-cookbooks/apt.git",
       "ref": "b1d54bcbc096468bd3103a81da2b6f3467bcf924"
     },
+    "database": {
+      "locked_version": "1.5.0"
+    },
     "mysql": {
       "locked_version": "2.1.2"
     },
@@ -26,6 +29,12 @@
       "locked_version": "0.9.1",
       "git": "git://github.com/fnichol/chef-rvm.git",
       "ref": "59dc482e2c39db4c378e79e10569f1becdc4bc43"
+    },
+    "aws": {
+      "locked_version": "0.100.6"
+    },
+    "xfs": {
+      "locked_version": "1.1.0"
     },
     "openssl": {
       "locked_version": "1.0.2"

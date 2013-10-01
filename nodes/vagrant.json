@@ -1,10 +1,17 @@
 {
+  "db_credentials": {
+    "name": "vagrant",
+    "username": "vagrant",
+    "password": "vagrant"
+  },
   "run_list": [
     "recipe[rwprecise64::pre-hooks]",
     "recipe[apt]",
     "role[ruby]",
     "role[mysql]",
     "role[postgresql]",
+    "role[redis]",
+    "role[memcached]",
     "recipe[rwprecise64]"
   ]
 }

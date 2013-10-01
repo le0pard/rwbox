@@ -1,0 +1,14 @@
+{
+  "name": "memcached",
+  "chef_type": "role",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+    "memcached": {
+      "listen": "0.0.0.0"
+    }
+  },
+  "description": "The base role for systems that redis",
+  "run_list": [
+    "recipe[memcached]"
+  ]
+}
