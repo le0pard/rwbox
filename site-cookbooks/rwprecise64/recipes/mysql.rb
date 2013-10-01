@@ -1,3 +1,5 @@
+include_recipe "database::mysql"
+
 mysql_connection_info = {
   :host     => 'localhost',
   :username => 'root',

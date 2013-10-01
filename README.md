@@ -19,6 +19,11 @@ RWprecise64 contains:
 $ vagrant box add rwprecise64 http://dl.dropbox.com/u/83704794/vagrant/rwprecise64.box
 ```
 
+## Credentials
+
+* MySQL: root/vagrant
+* PostgreSQL: postgres/vagrant
+
 ## Usage
 
 Basic setup:
