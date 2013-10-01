@@ -6,16 +6,17 @@
     "rvm": {
       "upgrade": "stable",
       "rubies": ["1.9.3-p448", "2.0.0-p247", "jruby-1.7.4"],
-      "default_ruby": "1.9.3-p448",
+      "default_ruby": "2.0.0-p247",
       "global_gems": [
-        { "name": "bundler" },
-        { "name": "chef" }
+        { "name": "bundler" }
       ],
       "rvm_gem_options": "--no-rdoc --no-ri"
     }
   },
   "description": "The base role for systems that ruby",
   "run_list": [
-    "recipe[rvm::system]"
+    "recipe[rvm]",
+    "recipe[rvm::system]",
+    "recipe[rvm::vagrant]"
   ]
 }

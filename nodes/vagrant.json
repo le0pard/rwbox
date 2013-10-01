@@ -1,6 +1,7 @@
 {
   "run_list": [
     "recipe[apt]",
-    "role[ruby]"
+    "role[ruby]",
+    "recipe[rwprecise64]"
   ]
 }
