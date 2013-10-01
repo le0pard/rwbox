@@ -1,0 +1,36 @@
+{
+  "name": "postgresql",
+  "chef_type": "role",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+    "postgresql": {
+      "version": "9.3",
+      "password": {
+        "postgres": "vagrant"
+      },
+      "enable_pgdg_apt": true,
+      "pgdg": {
+        "release_apt_codename": "precise"
+      },
+      "client": {
+        "packages": ""
+      },
+      "server": {
+        "packages": ""
+      },
+      "config": {
+        "listen_addresses": "*"
+      },
+      "pg_hba": [
+        { "type": "local", "db": "all", "user": "postgres", "addr": null, "method": "ident" },
+        { "type": "local", "db": "all", "user": "all", "addr": null, "method": "ident" },
+        { "type": "host", "db": "all", "user": "all", "addr": null, "method": "md" }
+      ]
+    }
+  },
+  "description": "The base role for systems that postgresql",
+  "run_list": [
+    "recipe[postgresql]",
+    "recipe[postgresql::server]"
+  ]
+}

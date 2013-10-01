@@ -22,3 +22,6 @@ package "libmagickwand-dev"
 package "libcurl3"
 package "libcurl3-gnutls"
 package "libcurl4-openssl-dev"
+
+# utils
+package "htop"

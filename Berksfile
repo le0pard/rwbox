@@ -1,7 +1,7 @@
 site :opscode
 
 cookbook 'build-essential'
-cookbook 'apt'
+cookbook 'apt', github: 'opscode-cookbooks/apt'
 
 cookbook 'mysql'
 cookbook 'postgresql'

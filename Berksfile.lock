@@ -4,7 +4,9 @@
       "locked_version": "1.4.0"
     },
     "apt": {
-      "locked_version": "1.9.0"
+      "locked_version": "2.1.3",
+      "git": "git://github.com/opscode-cookbooks/apt.git",
+      "ref": "b1d54bcbc096468bd3103a81da2b6f3467bcf924"
     },
     "mysql": {
       "locked_version": "2.1.2"

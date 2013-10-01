@@ -1,8 +1,10 @@
 {
   "run_list": [
+    "recipe[rwprecise64::pre-hooks]",
     "recipe[apt]",
     "role[ruby]",
     "role[mysql]",
+    "role[postgresql]",
     "recipe[rwprecise64]"
   ]
 }
