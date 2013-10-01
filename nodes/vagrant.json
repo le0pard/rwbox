@@ -2,6 +2,7 @@
   "run_list": [
     "recipe[apt]",
     "role[ruby]",
+    "role[mysql]",
     "recipe[rwprecise64]"
   ]
 }

@@ -1,0 +1,18 @@
+{
+  "name": "mysql",
+  "chef_type": "role",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+    "mysql": {
+      "bind_address": "0.0.0.0",
+      "server_root_password": "vagrant",
+      "server_repl_password": "vagrant",
+      "server_debian_password": "vagrant"
+    }
+  },
+  "description": "The base role for systems that mysql",
+  "run_list": [
+    "recipe[mysql]",
+    "recipe[mysql::server]"
+  ]
+}
