@@ -26,7 +26,7 @@ $ vagrant box add rwprecise64 http://rwprecise64.catware.org/0.1.0/rwprecise64.b
 
 ## Usage
 
-Basic setup:
+Basic setup of image:
 
 ```bash
 $ vagrant init rwprecise64
