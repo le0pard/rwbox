@@ -1,0 +1,50 @@
+{
+  "sources": {
+    "build-essential": {
+      "locked_version": "1.4.0"
+    },
+    "apt": {
+      "locked_version": "1.9.0"
+    },
+    "mysql": {
+      "locked_version": "2.1.2"
+    },
+    "postgresql": {
+      "locked_version": "3.0.4"
+    },
+    "redis": {
+      "locked_version": "0.0.4",
+      "git": "git://github.com/sendgridlabs/chef-redis.git",
+      "ref": "d1b6aed774bd9f790fc34dad1c72b157fbd7e1f5"
+    },
+    "memcached": {
+      "locked_version": "1.5.0"
+    },
+    "rvm": {
+      "locked_version": "0.9.1",
+      "git": "git://github.com/fnichol/chef-rvm.git",
+      "ref": "59dc482e2c39db4c378e79e10569f1becdc4bc43"
+    },
+    "openssl": {
+      "locked_version": "1.0.2"
+    },
+    "runit": {
+      "locked_version": "1.1.4"
+    },
+    "yum": {
+      "locked_version": "2.1.0"
+    },
+    "java": {
+      "locked_version": "1.9.4"
+    },
+    "windows": {
+      "locked_version": "1.8.4"
+    },
+    "chef_handler": {
+      "locked_version": "1.1.4"
+    },
+    "chef_gem": {
+      "locked_version": "0.1.0"
+    }
+  }
+}

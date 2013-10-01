@@ -1,0 +1,21 @@
+{
+  "name": "ruby",
+  "chef_type": "role",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+    "rvm": {
+      "upgrade": "stable",
+      "rubies": ["1.9.3-p448", "2.0.0-p247", "jruby-1.7.4"],
+      "default_ruby": "1.9.3-p448",
+      "global_gems": [
+        { "name": "bundler" },
+        { "name": "chef" }
+      ],
+      "rvm_gem_options": "--no-rdoc --no-ri"
+    }
+  },
+  "description": "The base role for systems that ruby",
+  "run_list": [
+    "recipe[rvm::system]"
+  ]
+}
