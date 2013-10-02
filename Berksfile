@@ -5,7 +5,7 @@ cookbook 'apt', github: 'opscode-cookbooks/apt'
 
 cookbook 'database'
 cookbook 'mysql'
-cookbook 'postgresql'
+cookbook 'postgresql', github: 'opscode-cookbooks/postgresql'
 cookbook 'redis', github: 'sendgridlabs/chef-redis'
 cookbook 'memcached'
 

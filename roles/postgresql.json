@@ -19,12 +19,16 @@
         "packages": ["postgresql-9.3", "postgresql-contrib-9.3", "postgresql-server-dev-9.3"]
       },
       "config": {
+        "ssl": true,
+        "max_connections": 100,
+        "ssl_cert_file": "/etc/ssl/certs/ssl-cert-snakeoil.pem",
+        "ssl_key_file": "/etc/ssl/private/ssl-cert-snakeoil.key",
         "listen_addresses": "*"
       },
       "pg_hba": [
         { "type": "local", "db": "all", "user": "postgres", "addr": null, "method": "ident" },
         { "type": "local", "db": "all", "user": "all", "addr": null, "method": "ident" },
-        { "type": "host", "db": "all", "user": "all", "addr": null, "method": "md5" }
+        { "type": "host", "db": "all", "user": "all", "addr": "all", "method": "md5" }
       ]
     }
   },
