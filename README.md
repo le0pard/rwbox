@@ -21,8 +21,12 @@ $ vagrant box add rwprecise64 http://rwprecise64.catware.org/0.1.0/rwprecise64.b
 
 ## Credentials
 
-* MySQL: root/vagrant or vagrant/vagrant
-* PostgreSQL: postgres/vagrant or vagrant/vagrant
+* MySQL:
+  * root/vagrant
+  * vagrant/vagrant
+* PostgreSQL:
+  * postgres/vagrant
+  * vagrant/vagrant
 
 ## Usage
 
