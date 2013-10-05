@@ -16,7 +16,7 @@ RWprecise64 contains:
 3. Next just execute in terminal:
 
 ```bash
-$ vagrant box add rwprecise64 http://rwprecise64.catware.org/0.1.0/rwprecise64.box
+$ vagrant box add rwprecise64 http://rwprecise64.catware.org/0.1.1/rwprecise64.box
 ```
 
 ## Credentials
