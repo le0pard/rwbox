@@ -48,8 +48,8 @@
 <ul>
 <li>RVM with compiled ruby 1.9.3-p448, 2.0.0-p247, jruby-1.7.4</li>
 <li>MySQL 5.5.32 and PostgreSQL 9.3.0</li>
-<li>Redis 2.6.16 and Memcached</li>
-<li>Dev libs</li>
+<li>Redis 2.6.16 and Memcached 1.4.13</li>
+<li>Dev libs for pg, mysql2, rmagick, curb and another gems</li>
 </ul><h2>
 <a name="how-to-install" class="anchor" href="#how-to-install"><span class="octicon octicon-link"></span></a>How to install</h2>
 
@@ -59,15 +59,27 @@
 <li>Install <a href="http://www.vagrantup.com/">Vagrant</a>
 </li>
 <li>Next just execute in terminal:</li>
-</ol><div class="highlight highlight-bash"><pre><span class="nv">$ </span>vagrant box add rwprecise64 http://rwprecise64.catware.org/0.1.0/rwprecise64.box
+</ol><div class="highlight highlight-bash"><pre><span class="nv">$ </span>vagrant box add rwprecise64 http://rwprecise64.catware.org/0.1.1/rwprecise64.box
 </pre></div>
 
 <h2>
 <a name="credentials" class="anchor" href="#credentials"><span class="octicon octicon-link"></span></a>Credentials</h2>
 
 <ul>
-<li>MySQL: root/vagrant</li>
-<li>PostgreSQL: postgres/vagrant</li>
+<li>MySQL:
+
+<ul>
+<li>root/vagrant</li>
+<li>vagrant/vagrant</li>
+</ul>
+</li>
+<li>PostgreSQL:
+
+<ul>
+<li>postgres/vagrant</li>
+<li>vagrant/vagrant</li>
+</ul>
+</li>
 </ul><h2>
 <a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
 
