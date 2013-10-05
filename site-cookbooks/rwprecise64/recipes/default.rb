@@ -25,3 +25,7 @@ package "libcurl4-openssl-dev"
 
 # utils
 package "htop"
+
+
+include_recipe 'rwprecise64::mysql'
+include_recipe 'rwprecise64::postgresql'

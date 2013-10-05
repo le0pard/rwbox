@@ -6,8 +6,8 @@ RWprecise64 contains:
 
 * RVM with compiled ruby 1.9.3-p448, 2.0.0-p247, jruby-1.7.4
 * MySQL 5.5.32 and PostgreSQL 9.3.0
-* Redis 2.6.16 and Memcached
-* Dev libs
+* Redis 2.6.16 and Memcached 1.4.13
+* Dev libs for pg, mysql2, rmagick, curb and another gems
 
 ## How to install
 
@@ -21,8 +21,8 @@ $ vagrant box add rwprecise64 http://rwprecise64.catware.org/0.1.0/rwprecise64.b
 
 ## Credentials
 
-* MySQL: root/vagrant
-* PostgreSQL: postgres/vagrant
+* MySQL: root/vagrant or vagrant/vagrant
+* PostgreSQL: postgres/vagrant or vagrant/vagrant
 
 ## Usage
 
