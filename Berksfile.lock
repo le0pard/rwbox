@@ -4,20 +4,20 @@
       "locked_version": "1.4.0"
     },
     "apt": {
-      "locked_version": "2.2.0",
+      "locked_version": "2.3.1",
       "git": "git://github.com/opscode-cookbooks/apt.git",
-      "ref": "0d028c2aa88627774c9bf15e55eab498b939101d"
+      "ref": "27a63b72ada97ff716901ee7d6a86315767672e0"
     },
     "database": {
-      "locked_version": "1.5.0"
+      "locked_version": "1.5.2"
     },
     "mysql": {
       "locked_version": "2.1.2"
     },
     "postgresql": {
-      "locked_version": "3.0.5",
+      "locked_version": "3.2.1",
       "git": "git://github.com/opscode-cookbooks/postgresql.git",
-      "ref": "cacbdd821901a018bdb3829beab2db737db7bc1b"
+      "ref": "cb147ab323f43172ebcbaea0808c5f9f4a3b0402"
     },
     "redis": {
       "locked_version": "0.0.4",
@@ -42,10 +42,10 @@
       "locked_version": "1.0.2"
     },
     "runit": {
-      "locked_version": "1.1.4"
+      "locked_version": "1.3.0"
     },
     "yum": {
-      "locked_version": "2.1.0"
+      "locked_version": "2.3.4"
     },
     "java": {
       "locked_version": "1.9.4"
