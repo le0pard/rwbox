@@ -2,6 +2,7 @@
 
 * Fixed pg key for apt
 * Updated kernel and libs
+* Added port forwarding
 
 # 0.1.1
 
