@@ -1,3 +1,12 @@
+# 0.1.2
+
+* Fixed pg key for apt
+* Updated kernel and libs
+
+# 0.1.1
+
+* New databases credentials
+
 # 0.1.0
 
 * Initial image
