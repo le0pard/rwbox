@@ -73,9 +73,18 @@ $ vagrant destroy
 Port forwarding
 
 Ports form this list are forwarded by default:
+
 ```
 3000 => 3100
 1080 => 1180
 ```
 
 NOTICE: if you`ll start mailcatcher gem and want to see mailcatcher inbox from outside – don't forget to use `--ip` option.
+
+## Development
+
+Box setuped by Chef-Solo. For creating package you can use command:
+
+```bash
+$ vagrant package --output rwprecise64.box --vagrantfile Vagrantfile.box
+```
