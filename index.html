@@ -59,7 +59,7 @@
 <li>Install <a href="http://www.vagrantup.com/">Vagrant</a>
 </li>
 <li>Next just execute in terminal:</li>
-</ol><div class="highlight highlight-bash"><pre><span class="nv">$ </span>vagrant box add rwprecise64 http://rwprecise64.catware.org/0.1.2/rwprecise64.box
+</ol><div class="highlight highlight-bash"><pre><span class="nv">$ </span>vagrant box add rwprecise64 http://rwprecise64.catware.org/0.1.3/rwprecise64.box
 </pre></div>
 
 <h2>
@@ -82,6 +82,9 @@
 </li>
 </ul><h2>
 <a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<h4>
+<a name="box-usage" class="anchor" href="#box-usage"><span class="octicon octicon-link"></span></a>Box usage</h4>
 
 <p>Basic setup of image:</p>
 
@@ -112,6 +115,27 @@
 <p>Destroying the environment:</p>
 
 <div class="highlight highlight-bash"><pre><span class="nv">$ </span>vagrant destroy
+</pre></div>
+
+<h4>
+<a name="port-forwarding" class="anchor" href="#port-forwarding"><span class="octicon octicon-link"></span></a>Port forwarding</h4>
+
+<p>Port forwarding</p>
+
+<p>Ports form this list are forwarded by default:</p>
+
+<pre><code>3000 =&gt; 3100
+1080 =&gt; 1180
+</code></pre>
+
+<p>NOTICE: if you<code>ll start mailcatcher gem and want to see mailcatcher inbox from outside – don't forget to use</code>--ip` option.</p>
+
+<h2>
+<a name="development" class="anchor" href="#development"><span class="octicon octicon-link"></span></a>Development</h2>
+
+<p>Box setuped by Chef-Solo. For creating package you can use command:</p>
+
+<div class="highlight highlight-bash"><pre><span class="nv">$ </span>vagrant package --output rwprecise64.box --vagrantfile Vagrantfile.box
 </pre></div>
       </section>
 
