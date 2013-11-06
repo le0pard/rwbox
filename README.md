@@ -79,7 +79,7 @@ Ports form this list are forwarded by default:
 1080 => 1180
 ```
 
-NOTICE: if you`ll start mailcatcher gem and want to see mailcatcher inbox from outside – don't forget to use `--ip` option.
+NOTICE: if you'll start mailcatcher gem and want to see mailcatcher inbox from outside – don't forget to use `--ip` option.
 
 ## Development
 
