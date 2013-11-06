@@ -1,7 +1,7 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
-Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+Vagrant.configure(VAGRANTFILE_API_VERSION || "2") do |config|
   config.vm.network :forwarded_port, guest: 3000, host: 3100
   config.vm.network :forwarded_port, guest: 1080, host: 1180
 end
