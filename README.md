@@ -30,7 +30,7 @@ $ vagrant box add rwprecise64 http://rwprecise64.catware.org/0.1.3/rwprecise64.b
 
 ## Usage
 
-#### Box usage
+### Box usage
 
 Basic setup of image:
 
@@ -68,9 +68,7 @@ Destroying the environment:
 $ vagrant destroy
 ```
 
-#### Port forwarding
-
-Port forwarding
+### Port forwarding
 
 Ports form this list are forwarded by default:
 
@@ -81,7 +79,7 @@ Ports form this list are forwarded by default:
 
 NOTICE: if you'll start mailcatcher gem and want to see mailcatcher inbox from outside – don't forget to use `--ip` option.
 
-## Development
+# Development
 
 Box setuped by Chef-Solo. For creating package you can use command:
 
