@@ -5,8 +5,8 @@
   "default_attributes": {
     "rvm": {
       "upgrade": "stable",
-      "rubies": ["1.9.3-p448", "2.0.0-p247", "jruby-1.7.4"],
-      "default_ruby": "2.0.0-p247",
+      "rubies": ["1.9.3-p448", "1.9.3-p484", "2.0.0-p247", "2.0.0-p353", "jruby-1.7.4", "jruby-1.7.9"],
+      "default_ruby": "2.0.0-p353",
       "global_gems": [
         { "name": "bundler" }
       ],
