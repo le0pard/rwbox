@@ -9,7 +9,7 @@ VAGRANTFILE_API_VERSION = "2"
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.box = "rwprecise64"
-  config.vm.box_url = "http://rwprecise64.catware.org/0.1.3/rwprecise64.box"
+  config.vm.box_url = "http://rwprecise64.catware.org/0.1.4/rwprecise64.box"
 
   VAGRANT_JSON = JSON.parse(Pathname(__FILE__).dirname.join('nodes', 'vagrant.json').read)
 
