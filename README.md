@@ -4,8 +4,8 @@ Vagrant image for Ruby and ROR developers. Vagrant uses [Oracle’s VirtualBox](
 
 RWprecise64 contains:
 
-* RVM with compiled ruby 1.9.3-p448, 2.0.0-p247, jruby-1.7.4
-* MySQL 5.5.32 and PostgreSQL 9.3.0
+* RVM with compiled ruby 1.9.3-p484, 2.0.0-p353, jruby-1.7.9
+* MySQL 5.5.32 and PostgreSQL 9.3.1
 * Redis 2.6.16 and Memcached 1.4.13
 * Dev libs for pg, mysql2, rmagick, curb and another gems
 

@@ -1,3 +1,9 @@
+# 0.1.4
+
+* New ruby 1.9.3-p484, 2.0.0-p353, jruby-1.7.9
+* New PostgreSQL 9.3.1
+* New kernel
+
 # 0.1.3
 
 * Added port forwarding
