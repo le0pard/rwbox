@@ -1,3 +1,11 @@
+# 0.2.0
+
+* New ruby 1.9.3-p545, 2.0.0-p451, 2.1.1, jruby-1.7.10
+* New PostgreSQL 9.3.3
+* New MySQL 5.5.35
+* New Redis 2.8.7
+* New kernel
+
 # 0.1.4
 
 * New ruby 1.9.3-p484, 2.0.0-p353, jruby-1.7.9
