@@ -1,23 +1,23 @@
 {
   "sources": {
     "build-essential": {
-      "locked_version": "1.4.0"
+      "locked_version": "1.4.2"
     },
     "apt": {
-      "locked_version": "2.3.1",
+      "locked_version": "2.3.9",
       "git": "git://github.com/opscode-cookbooks/apt.git",
-      "ref": "27a63b72ada97ff716901ee7d6a86315767672e0"
+      "ref": "8ef28bceaa6a9eded47e640d26df4a6f3a80320c"
     },
     "database": {
-      "locked_version": "1.5.2"
+      "locked_version": "2.0.0"
     },
     "mysql": {
-      "locked_version": "2.1.2"
+      "locked_version": "4.0.18"
     },
     "postgresql": {
-      "locked_version": "3.2.1",
+      "locked_version": "3.3.4",
       "git": "git://github.com/opscode-cookbooks/postgresql.git",
-      "ref": "cb147ab323f43172ebcbaea0808c5f9f4a3b0402"
+      "ref": "5800238828b443725442fe510ec4f5308ed9ce8b"
     },
     "redis": {
       "locked_version": "0.0.4",
@@ -25,36 +25,33 @@
       "ref": "d1b6aed774bd9f790fc34dad1c72b157fbd7e1f5"
     },
     "memcached": {
-      "locked_version": "1.5.0"
+      "locked_version": "1.7.0"
     },
     "rvm": {
       "locked_version": "0.9.1",
       "git": "git://github.com/fnichol/chef-rvm.git",
-      "ref": "59dc482e2c39db4c378e79e10569f1becdc4bc43"
+      "ref": "87f58d428c160337c1581ed1130a1a53d94e5126"
     },
     "aws": {
-      "locked_version": "0.100.6"
+      "locked_version": "1.0.0"
     },
     "xfs": {
       "locked_version": "1.1.0"
     },
     "openssl": {
-      "locked_version": "1.0.2"
+      "locked_version": "1.1.0"
     },
     "runit": {
-      "locked_version": "1.3.0"
+      "locked_version": "1.5.8"
     },
     "yum": {
-      "locked_version": "2.3.4"
+      "locked_version": "3.0.4"
+    },
+    "yum-epel": {
+      "locked_version": "0.2.0"
     },
     "java": {
-      "locked_version": "1.9.4"
-    },
-    "windows": {
-      "locked_version": "1.8.4"
-    },
-    "chef_handler": {
-      "locked_version": "1.1.4"
+      "locked_version": "1.18.0"
     },
     "chef_gem": {
       "locked_version": "0.1.0"

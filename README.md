@@ -4,9 +4,9 @@ Vagrant image for Ruby and ROR developers. Vagrant uses [Oracle’s VirtualBox](
 
 RWprecise64 contains:
 
-* RVM with compiled ruby 1.9.3-p484, 2.0.0-p353, jruby-1.7.9
-* MySQL 5.5.32 and PostgreSQL 9.3.1
-* Redis 2.6.16 and Memcached 1.4.13
+* RVM with compiled ruby 1.9.3-p545, 2.0.0-p451, 2.1.1, jruby-1.7.10
+* MySQL 5.5.35 and PostgreSQL 9.3.3
+* Redis 2.8.7 and Memcached 1.4.13
 * Dev libs for pg, mysql2, rmagick, curb and another gems
 
 ## How to install
@@ -16,7 +16,7 @@ RWprecise64 contains:
 3. Next just execute in terminal:
 
 ```bash
-$ vagrant box add rwprecise64 http://rwprecise64.catware.org/0.1.4/rwprecise64.box
+$ vagrant box add rwprecise64 http://rwprecise64.catware.org/0.2.0/rwprecise64.box
 ```
 
 ## Credentials

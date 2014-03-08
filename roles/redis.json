@@ -5,8 +5,8 @@
   "default_attributes": {
     "redis": {
       "source": {
-        "version": "2.6.16",
-        "tar_url": "http://download.redis.io/releases/redis-2.6.16.tar.gz",
+        "version": "2.8.7",
+        "tar_url": "http://download.redis.io/releases/redis-2.8.7.tar.gz",
         "tar_checksum": ""
       },
       "bind": "0.0.0.0",
