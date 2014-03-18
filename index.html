@@ -58,8 +58,13 @@
 </li>
 <li>Install <a href="http://www.vagrantup.com/">Vagrant</a>
 </li>
-<li>Next just execute in terminal:</li>
-</ol><div class="highlight highlight-bash"><pre><span class="nv">$ </span>vagrant box add rwprecise64 http://rwprecise64.catware.org/0.2.0/rwprecise64.box
+<li>Next just execute in terminal (for Vagrant &gt;= 1.5 using <a href="https://vagrantcloud.com/leopard/rwprecise64">Vagrant Cloud</a>):</li>
+</ol><div class="highlight highlight-bash"><pre><span class="nv">$ </span>vagrant init leopard/rwprecise64
+</pre></div>
+
+<p>OR (for Vagrant &lt; 1.5):</p>
+
+<div class="highlight highlight-bash"><pre><span class="nv">$ </span>vagrant box add rwprecise64 http://rwprecise64.catware.org/0.2.0/rwprecise64.box
 </pre></div>
 
 <h2>
