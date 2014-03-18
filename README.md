@@ -13,7 +13,13 @@ RWprecise64 contains:
 
 1. Install [Oracle’s VirtualBox](https://www.virtualbox.org/)
 2. Install [Vagrant](http://www.vagrantup.com/)
-3. Next just execute in terminal:
+3. Next just execute in terminal (for Vagrant >= 1.5 using [Vagrant Cloud](https://vagrantcloud.com/leopard/rwprecise64)):
+
+```bash
+$ vagrant init leopard/rwprecise64
+```
+
+OR (for Vagrant < 1.5):
 
 ```bash
 $ vagrant box add rwprecise64 http://rwprecise64.catware.org/0.2.0/rwprecise64.box
