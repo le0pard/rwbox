@@ -1,60 +1,60 @@
-{
-  "sources": {
-    "build-essential": {
-      "locked_version": "1.4.2"
-    },
-    "apt": {
-      "locked_version": "2.3.9",
-      "git": "git://github.com/opscode-cookbooks/apt.git",
-      "ref": "8ef28bceaa6a9eded47e640d26df4a6f3a80320c"
-    },
-    "database": {
-      "locked_version": "2.0.0"
-    },
-    "mysql": {
-      "locked_version": "4.0.18"
-    },
-    "postgresql": {
-      "locked_version": "3.3.4",
-      "git": "git://github.com/opscode-cookbooks/postgresql.git",
-      "ref": "5800238828b443725442fe510ec4f5308ed9ce8b"
-    },
-    "redis": {
-      "locked_version": "0.0.4",
-      "git": "git://github.com/sendgridlabs/chef-redis.git",
-      "ref": "d1b6aed774bd9f790fc34dad1c72b157fbd7e1f5"
-    },
-    "memcached": {
-      "locked_version": "1.7.0"
-    },
-    "rvm": {
-      "locked_version": "0.9.1",
-      "git": "git://github.com/fnichol/chef-rvm.git",
-      "ref": "87f58d428c160337c1581ed1130a1a53d94e5126"
-    },
-    "aws": {
-      "locked_version": "1.0.0"
-    },
-    "xfs": {
-      "locked_version": "1.1.0"
-    },
-    "openssl": {
-      "locked_version": "1.1.0"
-    },
-    "runit": {
-      "locked_version": "1.5.8"
-    },
-    "yum": {
-      "locked_version": "3.0.4"
-    },
-    "yum-epel": {
-      "locked_version": "0.2.0"
-    },
-    "java": {
-      "locked_version": "1.18.0"
-    },
-    "chef_gem": {
-      "locked_version": "0.1.0"
-    }
-  }
-}
+DEPENDENCIES
+  apt
+    git: git://github.com/opscode-cookbooks/apt.git
+    revision: ac1917c66a9d67fb4a0afeffaa92195b7385887e
+  build-essential
+  database
+  memcached
+  mysql
+  postgresql
+    git: git://github.com/opscode-cookbooks/postgresql.git
+    revision: 9dc4c6042bbd861ee8d5e2428397558fee06947e
+  redis
+    git: git://github.com/sendgridlabs/chef-redis.git
+    revision: d1b6aed774bd9f790fc34dad1c72b157fbd7e1f5
+  rvm
+    git: git://github.com/fnichol/chef-rvm.git
+    revision: dd58087e7399097a9b9df4e2e7235908aace2afd
+
+GRAPH
+  apt (2.4.1)
+  aws (2.2.2)
+  build-essential (2.0.4)
+  chef-sugar (2.0.0)
+  chef_gem (0.1.0)
+  database (2.2.0)
+    aws (>= 0.0.0)
+    mysql (>= 5.0.0)
+    mysql-chef_gem (>= 0.0.0)
+    postgresql (>= 1.0.0)
+    xfs (>= 0.0.0)
+  java (1.22.0)
+  memcached (1.7.2)
+    runit (~> 1.0)
+    yum (~> 3.0)
+    yum-epel (>= 0.0.0)
+  mysql (5.3.6)
+    yum-mysql-community (>= 0.0.0)
+  mysql-chef_gem (0.0.2)
+    build-essential (>= 0.0.0)
+    mysql (>= 0.0.0)
+  openssl (2.0.0)
+    chef-sugar (>= 0.0.0)
+  postgresql (3.4.1)
+    apt (>= 1.9.0)
+    build-essential (>= 0.0.0)
+    openssl (>= 0.0.0)
+  redis (0.0.4)
+  runit (1.5.10)
+    build-essential (>= 0.0.0)
+    yum (~> 3.0)
+    yum-epel (>= 0.0.0)
+  rvm (0.9.2)
+    chef_gem (>= 0.0.0)
+    java (>= 0.0.0)
+  xfs (1.1.0)
+  yum (3.2.2)
+  yum-epel (0.3.6)
+    yum (~> 3.0)
+  yum-mysql-community (0.1.8)
+    yum (>= 3.0.0)

@@ -1,4 +1,4 @@
-site :opscode
+source "https://api.berkshelf.com"
 
 cookbook 'build-essential'
 cookbook 'apt', github: 'opscode-cookbooks/apt'
