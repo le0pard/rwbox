@@ -14,6 +14,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   VAGRANT_JSON = JSON.parse(Pathname(__FILE__).dirname.join('nodes', 'vagrant.json').read)
 
   config.vm.provision :chef_solo do |chef|
+    chef_gem_path    = "/opt/chef/embedded/lib/ruby/gems/1.9.1"
+    chef.binary_env  = "GEM_PATH=#{chef_gem_path} GEM_HOME=#{chef_gem_path}"
+    chef.binary_path = "/opt/chef/bin"
     chef.cookbooks_path = ["site-cookbooks", "cookbooks"]
     chef.roles_path = "roles"
     chef.data_bags_path = "data_bags"
