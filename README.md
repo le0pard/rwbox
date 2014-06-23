@@ -22,7 +22,7 @@ $ vagrant init leopard/rwprecise64
 OR (for Vagrant < 1.5):
 
 ```bash
-$ vagrant box add rwprecise64 http://rwprecise64.catware.org/0.2.0/rwprecise64.box
+$ vagrant box add rwprecise64 http://rwprecise64.catware.org/0.2.1/rwprecise64.box
 ```
 
 ## Credentials
