@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Rwprecise64 by le0pard</title>
+    <title>RWBox by le0pard</title>
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -20,9 +20,9 @@
   <body>
       <div id="header">
         <nav>
-          <li class="fork"><a href="https://github.com/le0pard/rwprecise64">View On GitHub</a></li>
-          <li class="downloads"><a href="https://github.com/le0pard/rwprecise64/zipball/master">ZIP</a></li>
-          <li class="downloads"><a href="https://github.com/le0pard/rwprecise64/tarball/master">TAR</a></li>
+          <li class="fork"><a href="https://github.com/le0pard/rwbox">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/le0pard/rwbox/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/le0pard/rwbox/tarball/master">TAR</a></li>
           <li class="title">DOWNLOADS</li>
         </nav>
       </div><!-- end header -->
@@ -31,24 +31,23 @@
 
       <section>
         <div id="title">
-          <h1>Rwprecise64</h1>
-          <p>Vagrant image for Ruby and ROR developers</p>
+          <h1>RWBox</h1>
+          <p>Vagrant images for Ruby and ROR developers</p>
           <hr>
           <span class="credits left">Project maintained by <a href="https://github.com/le0pard">le0pard</a></span>
           <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
         </div>
 
         <h1>
-<a name="rwprecise64" class="anchor" href="#rwprecise64"><span class="octicon octicon-link"></span></a>rwprecise64</h1>
+<a name="rwbox" class="anchor" href="#rwbox"><span class="octicon octicon-link"></span></a>RWBox</h1>
 
-<p>Vagrant image for Ruby and ROR developers. Vagrant uses <a href="https://www.virtualbox.org/">Oracle’s VirtualBox</a> or <a href="http://www.vmware.com/">VMware</a> to build configurable, lightweight, and portable virtual machines dynamically.</p>
+<p>Vagrant images for Ruby and ROR developers. Vagrant uses <a href="https://www.virtualbox.org/">Oracle’s VirtualBox</a> or <a href="http://www.vmware.com/">VMware</a> to build configurable, lightweight, and portable virtual machines dynamically.</p>
 
-<p>RWprecise64 contains:</p>
+<p>RWBox contains:</p>
 
 <ul>
-<li>RVM with compiled ruby 1.9.3-p547, 2.0.0-p481, 2.1.2, jruby-1.7.12</li>
-<li>MySQL 5.5.37 and PostgreSQL 9.3.4</li>
-<li>Redis 2.8.12 and Memcached 1.4.13</li>
+<li>RVM with compiled Ruby 1.9.3-p547, 2.0.0-p481, 2.1.2, jruby-1.7.12</li>
+<li>MySQL, PostgreSQL, Redis and Memcached</li>
 <li>Dev libs for pg, mysql2, rmagick, curb and another gems</li>
 </ul><h2>
 <a name="how-to-install" class="anchor" href="#how-to-install"><span class="octicon octicon-link"></span></a>How to install</h2>
@@ -58,13 +57,16 @@
 </li>
 <li>Install <a href="http://www.vagrantup.com/">Vagrant</a>
 </li>
-<li>Next just execute in terminal (for Vagrant &gt;= 1.5 using <a href="https://vagrantcloud.com/leopard/rwprecise64">Vagrant Cloud</a>):</li>
-</ol><div class="highlight highlight-bash"><pre><span class="nv">$ </span>vagrant init leopard/rwprecise64
+<li>Next just execute in terminal commands:</li>
+</ol><h3>
+<a name="ubuntu-1204" class="anchor" href="#ubuntu-1204"><span class="octicon octicon-link"></span></a>Ubuntu 12.04</h3>
+
+<div class="highlight highlight-bash"><pre><span class="nv">$ </span>vagrant init leopard/rwprecise64
 </pre></div>
 
 <p>OR (for Vagrant &lt; 1.5):</p>
 
-<div class="highlight highlight-bash"><pre><span class="nv">$ </span>vagrant box add rwprecise64 http://rwprecise64.catware.org/0.2.1/rwprecise64.box
+<div class="highlight highlight-bash"><pre><span class="nv">$ </span>vagrant box add rwprecise64 http://rwprecise64.catware.org/0.2.2/rwprecise64.box
 </pre></div>
 
 <h2>
