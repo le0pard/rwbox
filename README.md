@@ -1,12 +1,11 @@
-# rwprecise64
+# RWBox
 
-Vagrant image for Ruby and ROR developers. Vagrant uses [Oracle’s VirtualBox](https://www.virtualbox.org/) or [VMware](http://www.vmware.com/) to build configurable, lightweight, and portable virtual machines dynamically.
+Vagrant images for Ruby and ROR developers. Vagrant uses [Oracle’s VirtualBox](https://www.virtualbox.org/) or [VMware](http://www.vmware.com/) to build configurable, lightweight, and portable virtual machines dynamically.
 
-RWprecise64 contains:
+RWBox contains:
 
 * RVM with compiled ruby 1.9.3-p547, 2.0.0-p481, 2.1.2, jruby-1.7.12
-* MySQL 5.5.37 and PostgreSQL 9.3.4
-* Redis 2.8.12 and Memcached 1.4.13
+* MySQL, PostgreSQL, Redis and Memcached
 * Dev libs for pg, mysql2, rmagick, curb and another gems
 
 ## How to install
@@ -14,6 +13,8 @@ RWprecise64 contains:
 1. Install [Oracle’s VirtualBox](https://www.virtualbox.org/)
 2. Install [Vagrant](http://www.vagrantup.com/)
 3. Next just execute in terminal (for Vagrant >= 1.5 using [Vagrant Cloud](https://vagrantcloud.com/leopard/rwprecise64)):
+
+### Ubuntu 12.04
 
 ```bash
 $ vagrant init leopard/rwprecise64
