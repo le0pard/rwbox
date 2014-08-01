@@ -8,7 +8,7 @@ VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
-  config.vm.box = (ENV['RWBOX'] || "ubuntu/trusty64")#"leopard/rwprecise64"
+  config.vm.box = (ENV['RWBOX'] || "leopard/rwtrusty64")#"leopard/rwprecise64"
   #config.vm.box_url = "http://rwprecise64.catware.org/0.2.2/rwprecise64.box"
 
   VAGRANT_JSON = JSON.parse(Pathname(__FILE__).dirname.join('nodes', 'vagrant.json').read)
