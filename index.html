@@ -59,6 +59,17 @@
 </li>
 <li>Next just execute in terminal commands:</li>
 </ol><h3>
+<a name="ubuntu-1404" class="anchor" href="#ubuntu-1404"><span class="octicon octicon-link"></span></a>Ubuntu 14.04</h3>
+
+<div class="highlight highlight-bash"><pre><span class="nv">$ </span>vagrant init leopard/rwtrusty64
+</pre></div>
+
+<p>OR (for Vagrant &lt; 1.5):</p>
+
+<div class="highlight highlight-bash"><pre><span class="nv">$ </span>vagrant box add rwtrusty64 http://rwbox.catware.org/rwtrusty64/0.2.2/rwtrusty64.box
+</pre></div>
+
+<h3>
 <a name="ubuntu-1204" class="anchor" href="#ubuntu-1204"><span class="octicon octicon-link"></span></a>Ubuntu 12.04</h3>
 
 <div class="highlight highlight-bash"><pre><span class="nv">$ </span>vagrant init leopard/rwprecise64
@@ -66,7 +77,7 @@
 
 <p>OR (for Vagrant &lt; 1.5):</p>
 
-<div class="highlight highlight-bash"><pre><span class="nv">$ </span>vagrant box add rwprecise64 http://rwprecise64.catware.org/0.2.2/rwprecise64.box
+<div class="highlight highlight-bash"><pre><span class="nv">$ </span>vagrant box add rwprecise64 http://rwbox.catware.org/rwprecise64/0.2.2/rwprecise64.box
 </pre></div>
 
 <h2>
@@ -140,7 +151,9 @@
 
 <p>Box setuped by Chef-Solo. For creating package you can use command:</p>
 
-<div class="highlight highlight-bash"><pre><span class="nv">$ </span>vagrant package --output rwprecise64.box --vagrantfile Vagrantfile.box
+<div class="highlight highlight-bash"><pre><span class="nv">$ </span>vagrant package --output rwtrusty64.box --vagrantfile Vagrantfile.box
+// or
+<span class="nv">$ </span>vagrant package --output rwprecise64.box --vagrantfile Vagrantfile.box
 </pre></div>
       </section>
 
