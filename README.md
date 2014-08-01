@@ -14,6 +14,18 @@ RWBox contains:
 2. Install [Vagrant](http://www.vagrantup.com/)
 3. Next just execute in terminal commands:
 
+### Ubuntu 14.04
+
+```bash
+$ vagrant init leopard/rwtrusty64
+```
+
+OR (for Vagrant < 1.5):
+
+```bash
+$ vagrant box add rwtrusty64 http://rwbox.catware.org/rwtrusty64/0.2.2/rwtrusty64.box
+```
+
 ### Ubuntu 12.04
 
 ```bash
@@ -23,7 +35,7 @@ $ vagrant init leopard/rwprecise64
 OR (for Vagrant < 1.5):
 
 ```bash
-$ vagrant box add rwprecise64 http://rwprecise64.catware.org/0.2.2/rwprecise64.box
+$ vagrant box add rwprecise64 http://rwbox.catware.org/rwprecise64/0.2.2/rwprecise64.box
 ```
 
 ## Credentials
@@ -91,5 +103,7 @@ NOTICE: if you'll start mailcatcher gem and want to see mailcatcher inbox from o
 Box setuped by Chef-Solo. For creating package you can use command:
 
 ```bash
+$ vagrant package --output rwtrusty64.box --vagrantfile Vagrantfile.box
+// or
 $ vagrant package --output rwprecise64.box --vagrantfile Vagrantfile.box
 ```

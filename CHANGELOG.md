@@ -1,3 +1,11 @@
+# 0.2.2
+
+* New PostgreSQL 9.3.5
+* New MySQL 5.5.38
+* New Redis 2.8.13
+* New kernel
+* Fixed locale to UTF-8
+
 # 0.2.1
 
 * New ruby 1.9.3-p547, 2.0.0-p481, 2.1.2, jruby-1.7.12

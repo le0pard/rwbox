@@ -18,7 +18,7 @@ DEPENDENCIES
 
 GRAPH
   apt (2.4.1)
-  aws (2.2.2)
+  aws (2.3.0)
   build-essential (2.0.4)
   chef-sugar (2.0.0)
   chef_gem (0.1.0)
@@ -28,7 +28,7 @@ GRAPH
     mysql-chef_gem (>= 0.0.0)
     postgresql (>= 1.0.0)
     xfs (>= 0.0.0)
-  java (1.22.0)
+  java (1.24.0)
   memcached (1.7.2)
     runit (~> 1.0)
     yum (~> 3.0)
@@ -54,7 +54,7 @@ GRAPH
     java (>= 0.0.0)
   xfs (1.1.0)
   yum (3.2.2)
-  yum-epel (0.3.6)
+  yum-epel (0.4.0)
     yum (~> 3.0)
-  yum-mysql-community (0.1.8)
-    yum (>= 3.0.0)
+  yum-mysql-community (0.1.10)
+    yum (>= 3.0)

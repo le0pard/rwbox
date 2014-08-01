@@ -54,5 +54,5 @@ end
 
 
 
-include_recipe 'rwprecise64::mysql'
-include_recipe 'rwprecise64::postgresql'
+include_recipe 'rwbox::mysql'
+include_recipe 'rwbox::postgresql'
