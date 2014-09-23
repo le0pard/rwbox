@@ -7,11 +7,11 @@
       "upgrade": "stable",
       "rubies": [
         "1.9.3-p547",
-        "2.0.0-p481",
-        "2.1.2",
-        "jruby-1.7.12"
+        "2.0.0-p576",
+        "2.1.3",
+        "jruby-1.7.15"
       ],
-      "default_ruby": "2.1.2",
+      "default_ruby": "2.1.3",
       "global_gems": [
         { "name": "bundler" }
       ],
