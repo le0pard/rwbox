@@ -9,9 +9,6 @@
         "postgres": "vagrant"
       },
       "enable_pgdg_apt": true,
-      "pgdg": {
-        "release_apt_codename": "trusty"
-      },
       "client": {
         "packages": ["postgresql-client-9.3", "libpq-dev"]
       },
