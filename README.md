@@ -4,7 +4,7 @@ Vagrant images for Ruby and ROR developers. Vagrant uses [Oracle’s VirtualBox]
 
 RWBox contains:
 
-* RVM with compiled Ruby 1.9.3-p547, 2.0.0-p481, 2.1.2, jruby-1.7.12
+* RVM with compiled Ruby 1.9.3-p551, 2.0.0-p598, 2.1.5, jruby-1.7.16.1
 * MySQL, PostgreSQL, Redis and Memcached
 * Dev libs for pg, mysql2, rmagick, curb and another gems
 
