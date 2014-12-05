@@ -39,18 +39,20 @@
         </div>
 
         <h1>
-<a name="rwbox" class="anchor" href="#rwbox"><span class="octicon octicon-link"></span></a>RWBox</h1>
+<a id="rwbox" class="anchor" href="#rwbox" aria-hidden="true"><span class="octicon octicon-link"></span></a>RWBox</h1>
 
 <p>Vagrant images for Ruby and ROR developers. Vagrant uses <a href="https://www.virtualbox.org/">Oracle’s VirtualBox</a> or <a href="http://www.vmware.com/">VMware</a> to build configurable, lightweight, and portable virtual machines dynamically.</p>
 
 <p>RWBox contains:</p>
 
 <ul>
-<li>RVM with compiled Ruby 1.9.3-p547, 2.0.0-p481, 2.1.2, jruby-1.7.12</li>
+<li>RVM with compiled Ruby 1.9.3-p551, 2.0.0-p598, 2.1.5, jruby-1.7.16.1</li>
 <li>MySQL, PostgreSQL, Redis and Memcached</li>
 <li>Dev libs for pg, mysql2, rmagick, curb and another gems</li>
-</ul><h2>
-<a name="how-to-install" class="anchor" href="#how-to-install"><span class="octicon octicon-link"></span></a>How to install</h2>
+</ul>
+
+<h2>
+<a id="how-to-install" class="anchor" href="#how-to-install" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to install</h2>
 
 <ol>
 <li>Install <a href="https://www.virtualbox.org/">Oracle’s VirtualBox</a>
@@ -58,30 +60,28 @@
 <li>Install <a href="http://www.vagrantup.com/">Vagrant</a>
 </li>
 <li>Next just execute in terminal commands:</li>
-</ol><h3>
-<a name="ubuntu-1404" class="anchor" href="#ubuntu-1404"><span class="octicon octicon-link"></span></a>Ubuntu 14.04</h3>
-
-<div class="highlight highlight-bash"><pre><span class="nv">$ </span>vagrant init leopard/rwtrusty64
-</pre></div>
-
-<p>OR (for Vagrant &lt; 1.5):</p>
-
-<div class="highlight highlight-bash"><pre><span class="nv">$ </span>vagrant box add rwtrusty64 http://rwbox.catware.org/rwtrusty64/0.2.2/rwtrusty64.box
-</pre></div>
+</ol>
 
 <h3>
-<a name="ubuntu-1204" class="anchor" href="#ubuntu-1204"><span class="octicon octicon-link"></span></a>Ubuntu 12.04</h3>
+<a id="ubuntu-1404" class="anchor" href="#ubuntu-1404" aria-hidden="true"><span class="octicon octicon-link"></span></a>Ubuntu 14.04</h3>
 
-<div class="highlight highlight-bash"><pre><span class="nv">$ </span>vagrant init leopard/rwprecise64
-</pre></div>
+<div class="highlight highlight-bash"><pre>$ vagrant init leopard/rwtrusty64</pre></div>
 
 <p>OR (for Vagrant &lt; 1.5):</p>
 
-<div class="highlight highlight-bash"><pre><span class="nv">$ </span>vagrant box add rwprecise64 http://rwbox.catware.org/rwprecise64/0.2.2/rwprecise64.box
-</pre></div>
+<div class="highlight highlight-bash"><pre>$ vagrant box add rwtrusty64 http://rwbox.catware.org/rwtrusty64/0.2.3/rwtrusty64.box</pre></div>
+
+<h3>
+<a id="ubuntu-1204" class="anchor" href="#ubuntu-1204" aria-hidden="true"><span class="octicon octicon-link"></span></a>Ubuntu 12.04</h3>
+
+<div class="highlight highlight-bash"><pre>$ vagrant init leopard/rwprecise64</pre></div>
+
+<p>OR (for Vagrant &lt; 1.5):</p>
+
+<div class="highlight highlight-bash"><pre>$ vagrant box add rwprecise64 http://rwbox.catware.org/rwprecise64/0.2.3/rwprecise64.box</pre></div>
 
 <h2>
-<a name="credentials" class="anchor" href="#credentials"><span class="octicon octicon-link"></span></a>Credentials</h2>
+<a id="credentials" class="anchor" href="#credentials" aria-hidden="true"><span class="octicon octicon-link"></span></a>Credentials</h2>
 
 <ul>
 <li>MySQL:
@@ -98,45 +98,41 @@
 <li>vagrant/vagrant</li>
 </ul>
 </li>
-</ul><h2>
-<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+</ul>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
 
 <h3>
-<a name="box-usage" class="anchor" href="#box-usage"><span class="octicon octicon-link"></span></a>Box usage</h3>
+<a id="box-usage" class="anchor" href="#box-usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Box usage</h3>
 
 <p>Basic setup of image:</p>
 
-<div class="highlight highlight-bash"><pre><span class="nv">$ </span>vagrant init rwprecise64
-<span class="nv">$ </span>vagrant up
-</pre></div>
+<div class="highlight highlight-bash"><pre>$ vagrant init rwprecise64
+$ vagrant up</pre></div>
 
 <p>Now you can use ssh to login into environment:</p>
 
-<div class="highlight highlight-bash"><pre><span class="nv">$ </span>vagrant ssh
-</pre></div>
+<div class="highlight highlight-bash"><pre>$ vagrant ssh</pre></div>
 
 <p>Suspending the environment:</p>
 
-<div class="highlight highlight-bash"><pre><span class="nv">$ </span>vagrant <span class="nb">suspend</span>
-</pre></div>
+<div class="highlight highlight-bash"><pre>$ vagrant <span class="pl-s3">suspend</span></pre></div>
 
 <p>To resume working:</p>
 
-<div class="highlight highlight-bash"><pre><span class="nv">$ </span>vagrant resume
-</pre></div>
+<div class="highlight highlight-bash"><pre>$ vagrant resume</pre></div>
 
 <p>Halting the environment:</p>
 
-<div class="highlight highlight-bash"><pre><span class="nv">$ </span>vagrant halt
-</pre></div>
+<div class="highlight highlight-bash"><pre>$ vagrant halt</pre></div>
 
 <p>Destroying the environment:</p>
 
-<div class="highlight highlight-bash"><pre><span class="nv">$ </span>vagrant destroy
-</pre></div>
+<div class="highlight highlight-bash"><pre>$ vagrant destroy</pre></div>
 
 <h3>
-<a name="port-forwarding" class="anchor" href="#port-forwarding"><span class="octicon octicon-link"></span></a>Port forwarding</h3>
+<a id="port-forwarding" class="anchor" href="#port-forwarding" aria-hidden="true"><span class="octicon octicon-link"></span></a>Port forwarding</h3>
 
 <p>Ports form this list are forwarded by default:</p>
 
@@ -147,14 +143,13 @@
 <p>NOTICE: if you'll start mailcatcher gem and want to see mailcatcher inbox from outside – don't forget to use <code>--ip</code> option.</p>
 
 <h1>
-<a name="development" class="anchor" href="#development"><span class="octicon octicon-link"></span></a>Development</h1>
+<a id="development" class="anchor" href="#development" aria-hidden="true"><span class="octicon octicon-link"></span></a>Development</h1>
 
 <p>Box setuped by Chef-Solo. For creating package you can use command:</p>
 
-<div class="highlight highlight-bash"><pre><span class="nv">$ </span>vagrant package --output rwtrusty64.box --vagrantfile Vagrantfile.box
+<div class="highlight highlight-bash"><pre>$ vagrant package --output rwtrusty64.box --vagrantfile Vagrantfile.box
 // or
-<span class="nv">$ </span>vagrant package --output rwprecise64.box --vagrantfile Vagrantfile.box
-</pre></div>
+$ vagrant package --output rwprecise64.box --vagrantfile Vagrantfile.box</pre></div>
       </section>
 
     </div>
