@@ -1,3 +1,9 @@
+# 0.2.3
+
+* New Ruby
+* New Redis 2.8.18
+* New kernel and security updates
+
 # 0.2.2
 
 * New PostgreSQL 9.3.5
