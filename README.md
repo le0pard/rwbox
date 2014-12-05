@@ -23,7 +23,7 @@ $ vagrant init leopard/rwtrusty64
 OR (for Vagrant < 1.5):
 
 ```bash
-$ vagrant box add rwtrusty64 http://rwbox.catware.org/rwtrusty64/0.2.2/rwtrusty64.box
+$ vagrant box add rwtrusty64 http://rwbox.catware.org/rwtrusty64/0.2.3/rwtrusty64.box
 ```
 
 ### Ubuntu 12.04
@@ -35,7 +35,7 @@ $ vagrant init leopard/rwprecise64
 OR (for Vagrant < 1.5):
 
 ```bash
-$ vagrant box add rwprecise64 http://rwbox.catware.org/rwprecise64/0.2.2/rwprecise64.box
+$ vagrant box add rwprecise64 http://rwbox.catware.org/rwprecise64/0.2.3/rwprecise64.box
 ```
 
 ## Credentials
