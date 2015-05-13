@@ -1,60 +1,63 @@
 DEPENDENCIES
-  apt
-    git: git://github.com/opscode-cookbooks/apt.git
-    revision: b40c122e82edbc998f95a2fefd88c619af441b86
-  build-essential
-  database
-  memcached
-  mysql
-  postgresql
-    git: git://github.com/opscode-cookbooks/postgresql.git
-    revision: bfd310f37dd39d3f8b522e896e17360c2fd66ab7
-  redis
-    git: git://github.com/sendgridlabs/chef-redis.git
-    revision: d1b6aed774bd9f790fc34dad1c72b157fbd7e1f5
+  apt (~> 2.7.0)
+  build-essential (~> 2.2.3)
+  database (~> 4.0.6)
+  memcached (~> 1.7.2)
+  mysql (~> 6.0.22)
+  mysql2_chef_gem
+    git: git://github.com/sinfomicien/mysql2_chef_gem.git
+    revision: 0d940164a24609de7d6963fea0c6411007b95325
+  postgresql (~> 3.4.18)
+  redisio (~> 2.3.0)
+  runit (~> 1.6.0)
   rvm
-    git: git://github.com/fnichol/chef-rvm.git
-    revision: 3d1c3dda01d5dee02a99d53783f2f11d5a0f195d
+    git: git://github.com/martinisoft/chef-rvm.git
+    revision: 4c2590f385d88dd402022b53746eab8acaa00dc5
 
 GRAPH
-  apt (2.6.0)
-  aws (2.4.0)
-  build-essential (2.0.6)
-  chef-sugar (2.2.0)
+  apt (2.7.0)
+  build-essential (2.2.3)
+  chef-sugar (3.1.0)
   chef_gem (0.1.0)
-  database (2.3.0)
-    aws (>= 0.0.0)
-    mysql (>= 5.0.0)
-    mysql-chef_gem (>= 0.0.0)
+  database (4.0.6)
     postgresql (>= 1.0.0)
-    xfs (>= 0.0.0)
-  java (1.28.0)
+  java (1.31.0)
+  mariadb (0.3.0)
+    apt (>= 0.0.0)
+    yum (>= 0.0.0)
+    yum-epel (>= 0.0.0)
   memcached (1.7.2)
     runit (~> 1.0)
     yum (~> 3.0)
     yum-epel (>= 0.0.0)
-  mysql (5.5.2)
+  mysql (6.0.22)
+    smf (>= 0.0.0)
     yum-mysql-community (>= 0.0.0)
-  mysql-chef_gem (0.0.4)
+  mysql2_chef_gem (1.0.1)
     build-essential (>= 0.0.0)
+    mariadb (>= 0.0.0)
     mysql (>= 0.0.0)
-  openssl (2.0.0)
+  openssl (4.0.0)
     chef-sugar (>= 0.0.0)
-  postgresql (3.4.4)
+  packagecloud (0.0.17)
+  postgresql (3.4.18)
     apt (>= 1.9.0)
     build-essential (>= 0.0.0)
-    openssl (>= 0.0.0)
-  redis (0.0.4)
-  runit (1.5.10)
+    openssl (~> 4.0.0)
+  rbac (1.0.3)
+  redisio (2.3.0)
     build-essential (>= 0.0.0)
-    yum (~> 3.0)
-    yum-epel (>= 0.0.0)
-  rvm (0.9.3)
+    ulimit (>= 0.1.2)
+  runit (1.6.0)
+    packagecloud (>= 0.0.0)
+  rvm (0.10.1)
     chef_gem (>= 0.0.0)
     java (>= 0.0.0)
-  xfs (1.1.0)
-  yum (3.3.2)
-  yum-epel (0.5.1)
+  smf (2.2.6)
+    rbac (>= 1.0.1)
+  ulimit (0.3.3)
+  yum (3.6.0)
+  yum-epel (0.6.0)
     yum (~> 3.0)
-  yum-mysql-community (0.1.10)
+  yum-mysql-community (0.1.17)
     yum (>= 3.0)

@@ -4,19 +4,19 @@
   "json_class": "Chef::Role",
   "default_attributes": {
     "postgresql": {
-      "version": "9.3",
+      "version": "9.4",
       "password": {
         "postgres": "vagrant"
       },
       "enable_pgdg_apt": true,
       "client": {
-        "packages": ["postgresql-client-9.3", "libpq-dev"]
+        "packages": ["postgresql-client-9.4", "libpq-dev"]
       },
       "server": {
-        "packages": ["postgresql-9.3", "postgresql-server-dev-9.3"]
+        "packages": ["postgresql-9.4", "postgresql-server-dev-9.3"]
       },
       "contrib": {
-        "packages": ["postgresql-contrib-9.3"]
+        "packages": ["postgresql-contrib-9.4"]
       },
       "config": {
         "ssl": true,

@@ -6,16 +6,18 @@
     "rvm": {
       "upgrade": "stable",
       "rubies": [
-        "1.9.3-p551",
-        "2.0.0-p598",
-        "2.1.5",
-        "jruby-1.7.16.1"
+        "2.0.0-p645",
+        "2.1.6",
+        "2.2.2"
       ],
-      "default_ruby": "2.1.5",
+      "default_ruby": "2.2.2",
       "global_gems": [
         { "name": "bundler" }
       ],
-      "rvm_gem_options": "--no-rdoc --no-ri"
+      "rvm_gem_options": "--no-rdoc --no-ri",
+      "gpg": {
+        "keyserver": "hkp://keys.gnupg.net"
+      }
     }
   },
   "description": "The base role for systems that ruby",

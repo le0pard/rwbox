@@ -4,7 +4,7 @@ Vagrant images for Ruby and ROR developers. Vagrant uses [Oracle’s VirtualBox]
 
 RWBox contains:
 
-* RVM with compiled Ruby 1.9.3-p551, 2.0.0-p598, 2.1.5, jruby-1.7.16.1
+* RVM with compiled Ruby 2.0.0-p645, 2.1.6, 2.2.2
 * MySQL, PostgreSQL, Redis and Memcached
 * Dev libs for pg, mysql2, rmagick, curb and another gems
 
@@ -103,7 +103,7 @@ NOTICE: if you'll start mailcatcher gem and want to see mailcatcher inbox from o
 Box setuped by Chef-Solo. For creating package you can use command:
 
 ```bash
-$ vagrant package --output rwtrusty64.box --vagrantfile Vagrantfile.box
+$ vagrant package --base rwtrusty64 --output rwtrusty64.box --vagrantfile Vagrantfile.box
 // or
-$ vagrant package --output rwprecise64.box --vagrantfile Vagrantfile.box
+$ vagrant package --base rwprecise64 --output rwprecise64.box --vagrantfile Vagrantfile.box
 ```

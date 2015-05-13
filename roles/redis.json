@@ -3,19 +3,16 @@
   "chef_type": "role",
   "json_class": "Chef::Role",
   "default_attributes": {
-    "redis": {
-      "source": {
-        "version": "2.8.18",
-        "tar_url": "http://download.redis.io/releases/redis-2.8.18.tar.gz",
-        "tar_checksum": ""
-      },
-      "bind": "0.0.0.0",
-      "timeout": 0,
-      "appendfsync": "no"
+    "redisio": {
+      "version": "3.0.1",
+      "default_settings": {
+        "address": "0.0.0.0"
+      }
     }
   },
   "description": "The base role for systems that redis",
   "run_list": [
-    "recipe[redis::source]"
+    "recipe[redisio]",
+    "recipe[redisio::enable]"
   ]
 }

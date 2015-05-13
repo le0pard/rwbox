@@ -6,4 +6,6 @@ description      'Installs/Configures rwbox'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '0.1.0'
 
-depends "database"
+%w(database mysql postgresql mysql2_chef_gem).each do |d|
+  depends d
+end

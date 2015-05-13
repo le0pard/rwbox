@@ -5,14 +5,9 @@
   "default_attributes": {
     "mysql": {
       "bind_address": "0.0.0.0",
-      "server_root_password": "vagrant",
-      "server_repl_password": "vagrant",
-      "server_debian_password": "vagrant"
+      "server_root_password": "vagrant"
     }
   },
   "description": "The base role for systems that mysql",
-  "run_list": [
-    "recipe[mysql::client]",
-    "recipe[mysql::server]"
-  ]
+  "run_list": []
 }
