@@ -103,7 +103,7 @@ NOTICE: if you'll start mailcatcher gem and want to see mailcatcher inbox from o
 Box setuped by Chef-Solo. For creating package you can use command:
 
 ```bash
-$ vagrant package --base rwtrusty64 --output rwtrusty64.box --vagrantfile Vagrantfile.box
+$ vagrant package --output rwtrusty64.box --vagrantfile Vagrantfile.box
 // or
-$ vagrant package --base rwprecise64 --output rwprecise64.box --vagrantfile Vagrantfile.box
+$ vagrant package --output rwprecise64.box --vagrantfile Vagrantfile.box
 ```

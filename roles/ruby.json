@@ -5,6 +5,7 @@
   "default_attributes": {
     "rvm": {
       "upgrade": "stable",
+      "install_rubies": true,
       "rubies": [
         "2.0.0-p645",
         "2.1.6",
