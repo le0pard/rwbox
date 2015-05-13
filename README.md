@@ -54,7 +54,7 @@ $ vagrant box add rwprecise64 http://rwbox.catware.org/rwprecise64/1.0.0/rwpreci
 Basic setup of image:
 
 ```bash
-$ vagrant init rwprecise64
+$ vagrant init rwtrusty64
 $ vagrant up
 ```
 Now you can use ssh to login into environment:
